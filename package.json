@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "ts": "npx tsc src/$npm_config_file.ts && node src/$npm_config_file.js"
+  }
+}
